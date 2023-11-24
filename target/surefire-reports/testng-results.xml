@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-07T16:08:47 IST" name="Suite" finished-at="2023-11-07T16:10:22 IST" duration-ms="95376">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:dhanunjaitech.Tests.SubmitOrderTest@312aa7c]" name="submitOrder" class="dhanunjaitech.Tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="EroorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:dhanunjaitech.Tests.ErrorValidationsTest@1b919693]" name="LoginErrorValidation" class="dhanunjaitech.Tests.ErrorValidationsTest"/>
+      </group> <!-- EroorHandling -->
+    </groups>
+    <test started-at="2023-11-07T16:08:47 IST" name="Error Validations Test " finished-at="2023-11-07T16:09:04 IST" duration-ms="17803">
+      <class name="dhanunjaitech.Tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="LuanchApplication()[pri:0, instance:dhanunjaitech.Tests.ErrorValidationsTest@1b919693]" started-at="2023-11-07T16:08:47 IST" name="LuanchApplication" finished-at="2023-11-07T16:08:52 IST" duration-ms="5301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LuanchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:dhanunjaitech.Tests.ErrorValidationsTest@1b919693]" started-at="2023-11-07T16:08:52 IST" name="LoginErrorValidation" finished-at="2023-11-07T16:08:53 IST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dhanunjaitech.Tests.ErrorValidationsTest@1b919693]" started-at="2023-11-07T16:08:53 IST" name="teardown" finished-at="2023-11-07T16:08:53 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="LuanchApplication()[pri:0, instance:dhanunjaitech.Tests.ErrorValidationsTest@1b919693]" started-at="2023-11-07T16:08:53 IST" name="LuanchApplication" finished-at="2023-11-07T16:08:57 IST" duration-ms="3905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LuanchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:dhanunjaitech.Tests.ErrorValidationsTest@1b919693]" started-at="2023-11-07T16:08:57 IST" name="ProductErrorValidation" finished-at="2023-11-07T16:09:04 IST" duration-ms="7394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dhanunjaitech.Tests.ErrorValidationsTest@1b919693]" started-at="2023-11-07T16:09:04 IST" name="teardown" finished-at="2023-11-07T16:09:04 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dhanunjaitech.Tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test  -->
+    <test started-at="2023-11-07T16:08:47 IST" name="Submit Order Test " finished-at="2023-11-07T16:10:22 IST" duration-ms="95376">
+      <class name="dhanunjaitech.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="LuanchApplication()[pri:0, instance:dhanunjaitech.Tests.SubmitOrderTest@312aa7c]" started-at="2023-11-07T16:08:47 IST" name="LuanchApplication" finished-at="2023-11-07T16:08:52 IST" duration-ms="5111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LuanchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:dhanunjaitech.Tests.SubmitOrderTest@312aa7c]" started-at="2023-11-07T16:08:52 IST" name="submitOrder" data-provider="getdata" finished-at="2023-11-07T16:09:01 IST" duration-ms="8991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dhanunjai@013, product=ZARA COAT 3, email=dhanunjai@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dhanunjaitech.Tests.SubmitOrderTest@312aa7c]" started-at="2023-11-07T16:09:01 IST" name="teardown" finished-at="2023-11-07T16:09:01 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="LuanchApplication()[pri:0, instance:dhanunjaitech.Tests.SubmitOrderTest@312aa7c]" started-at="2023-11-07T16:09:01 IST" name="LuanchApplication" finished-at="2023-11-07T16:09:05 IST" duration-ms="3716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LuanchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:dhanunjaitech.Tests.SubmitOrderTest@312aa7c]" started-at="2023-11-07T16:09:05 IST" name="submitOrder" data-provider="getdata" finished-at="2023-11-07T16:10:13 IST" duration-ms="68331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dhanunjai@013, product=ADIDAS ORIGINAL, email=dhanunjai123@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dhanunjaitech.Tests.SubmitOrderTest@312aa7c]" started-at="2023-11-07T16:10:13 IST" name="teardown" finished-at="2023-11-07T16:10:13 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="LuanchApplication()[pri:0, instance:dhanunjaitech.Tests.SubmitOrderTest@312aa7c]" started-at="2023-11-07T16:10:13 IST" name="LuanchApplication" finished-at="2023-11-07T16:10:20 IST" duration-ms="7090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LuanchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:dhanunjaitech.Tests.SubmitOrderTest@312aa7c]" started-at="2023-11-07T16:10:20 IST" name="OrderHistoryTest" finished-at="2023-11-07T16:10:22 IST" depends-on-methods="dhanunjaitech.Tests.SubmitOrderTest.submitOrder" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dhanunjaitech.Tests.SubmitOrderTest@312aa7c]" started-at="2023-11-07T16:10:22 IST" name="teardown" finished-at="2023-11-07T16:10:22 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dhanunjaitech.Tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test  -->
+  </suite> <!-- Suite -->
+</testng-results>
